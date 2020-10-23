@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	 background-image:linear-gradient(to bottom left, skyblue,black);
+      align-items: center;
+      justify-content: center;
+       min-height: 100vh;
+       display: flex;
+
+  }
+
+
+.CALCULATOR{
+	padding: 1rem;
+	flex: 0 0 90%;
+	background-color: black;
+	border-radius: 0.5rem;
+	box-shadow:0 5px 10px #111430;
+
+}
+
+.screen{
+    width: 100%;
+    height:50%;
+    font-size: 2.5rem;
+    background-color:white;
+    overflow: hidden;
+     padding: 1.5rem 0rem;
+     text-align: right;
+     border-radius: 0.5rem;
+border: .25rem solid #242638;
+box-shadow: inset 0px 5px 10px #242638;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+.btn,.btn-equal,.btn-cancel{
+    flex: 0 0 21%;
+    font-size: 2.9rem;
+    border-radius:0.5rem;
+     background-color: lightpink;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px #242638,
+                5px 0px 10px #242638;
+    transition:all 0.80ms ease-in-out ; 
+     cursor:pointer;
+     }
+     .btn:active,.btn-equal:active,.btn-cancel:active{
+    color:#050e61;
+    background-color: grey;
+    transform:scale(1.1) 
+}
+ 
+ .btn-red{
+    color:black;
+
+}
+
+.btn-black{
+
+    color:white;
+}
+
+.btn-equal{
+    color: black;
+}
+.btn-cancel{
+
+color:black;
+}
+.btn,.btn-equal,.btn-cancel{
+   margin:5px; 
+}           
